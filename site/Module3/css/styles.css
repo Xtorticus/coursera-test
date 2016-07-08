@@ -1,0 +1,70 @@
+/* Module 3 CSS */
+
+body{
+  font-size: 16px; 
+}
+/* HEADER */
+#navContainer{
+  margin-bottom: -15px;
+}
+#header-nav{
+  background-color: #8c8c8c;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 0;
+  line-height: .75;
+  color: #000;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#navList {
+  margin-top: 10px;
+}
+#collapsebleNav #navList li a {
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+}
+
+#collapsebleNav #navList hr{
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #000;
+
+}
+#collapsebleNav #navList li a:hover {
+  background: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+body h2 {
+  margin-bottom: 20px;
+}
+#mainContent{
+  background-color: #8c8c8c;
+}
+
+/* END HOME PAGE */
+
+@media (max-width: 991px) {
+  #mainContent{
+    width: 85%;
+  }
+}
